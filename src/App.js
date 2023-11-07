@@ -11,11 +11,11 @@ function App() {
   const manejarClick = () =>{
     setNumClics(numclics + 1);
     console.log("Click");
-  }
+  };
   const reiniciarCotador =()=>{
     setNumClics(0);
     console.log("reiniciar Contador");
-  }
+  };
 
   return (
     <div className="App">
